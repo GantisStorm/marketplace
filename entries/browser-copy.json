@@ -1,11 +1,23 @@
 {
   "id": "browser-copy",
   "displayName": "Browser Copy",
-  "description": "Copies what you point at in a BB Browser tab: pick any element and get a structured markdown block — page URL, viewport, CSS selector, ARIA role and name, bounds, link, and text — or a PNG of just that element, or the visible tab. One icon button in the thread header opens the three modes, the picker highlights each target as you hover, and password and credential fields never contribute text or values.",
+  "description": "Copies what you point at in a BB Browser tab: pick any element and get a structured markdown block \u2014 page URL, viewport, CSS selector, ARIA role and name, bounds, link, and text \u2014 or a PNG of just that element, or a screenshot of the visible tab. One icon button in the thread header opens the three modes, the picker outlines each target with a hover highlight and label as you move, and password and credential fields never contribute text or values.",
   "icon": "Copy",
-  "screenshots": ["./screenshots/browser-copy/menu.png"],
+  "screenshots": [
+    "./screenshots/browser-copy/menu.png",
+    "./screenshots/browser-copy/selection.png"
+  ],
   "overview": "./overview/browser-copy.md",
-  "tags": ["browser", "copy", "element", "screenshot", "clipboard", "markdown", "selector", "accessibility"],
+  "tags": [
+    "browser",
+    "copy",
+    "element",
+    "screenshot",
+    "clipboard",
+    "markdown",
+    "selector",
+    "accessibility"
+  ],
   "author": {
     "name": "GantisStorm",
     "github": "GantisStorm",
@@ -15,7 +27,7 @@
   "source": {
     "git": {
       "url": "https://github.com/GantisStorm/bb-plugin-browser-copy.git",
-      "range": "^0.2.0"
+      "range": "^0.2.1"
     }
   }
 }
